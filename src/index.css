@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+/* Design Tokens (Tailwind v4 version) */
+:root {
+  --color-primary: 24, 142, 246;    
+  --color-secondary: 249, 129, 45;  
+  --color-bg: 249 250 251;
+  --color-surface: 255 255 255;
+  --color-text: 17 24 39;
+  --color-text-muted: 107 114 128;
+}
+
+.refrence{
+    color:rgb(24, 142, 246); /* primary*/
+    color :rgb(249, 129, 45); /* secondary*/
+    background-color: rgb(249 250 251);
+    color:rgb(17 24 39) ;
+    color: rgb(107 114 128);
+}
